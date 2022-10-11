@@ -1,0 +1,3 @@
+var object = {"a": { "b": { "c": "d" }}};
+
+console.log("Result at 'a.b.c': ",_.get(object, 'a.b.c'));
